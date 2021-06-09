@@ -1,0 +1,97 @@
+.App {
+  background-color: #4157FE;
+  color: #FFFF;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+.App .container {
+  width: 50%;
+  text-align: left;
+  margin: 0 auto;
+  max-width: 400px;
+}
+
+h1, h6 {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 400;
+  font-family:  "Helvetica Neue";
+}
+
+h6 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+p {
+  margin: 0 auto;
+  text-align: left;
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: 900;
+}
+
+.link-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+@media (max-width: 900px) {
+  .App .container {
+    width: 75%;
+  }
+
+  
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-float infinite 3s ease-in-out;
+  }
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-link {
+  color: rgb(112, 76, 182);
+}
+
+@keyframes App-logo-float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
